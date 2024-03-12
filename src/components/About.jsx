@@ -14,7 +14,10 @@ import { faEarth, faMailBulk, faMap, faPhone } from "@fortawesome/free-solid-svg
 const About = () => {
   return (
     <>
-    <div className='flex flex-wrap justify-center items-center xl:mb-40 xl:mt-20'>
+    <div className="justify-center items-center text-center ">
+      <h1 className="font-petit text-tertiary lg:text-[60px] sm:text-[40px] xs:text-[30px] text-[20px] lg:leading-[80px] mt-2">You are invited to the union of</h1>
+    </div>
+    <div className='flex flex-wrap justify-center items-center xl:mb-10 xl:mt-10'>
       <div className="lg:w-1/3">
         <h2 className={`${styles.padding} text-secondary font-petit md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] lg:px-10 justify-center text-center`}>Angelica Carbonel</h2>
       </div>
@@ -31,6 +34,9 @@ const About = () => {
       <div className="lg:w-1/3 ">
         <h2 className={`${styles.padding} text-secondary font-petit md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] lg:px-10 justify-center text-center`}>Neil Ian Hidalgo</h2>
       </div>
+      </div>
+      <div className="justify-center items-center text-center ">
+        <h1 className="font-petit text-tertiary lg:text-[60px] sm:text-[40px] xs:text-[30px] text-[20px] lg:leading-[80px] mt-2">on May 25, 2024</h1>
       </div>
     </>
   )

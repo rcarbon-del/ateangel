@@ -34,8 +34,8 @@ const ProjectCard = ({
         </div>
 
         <div className='mt-5'>
-          <h3 className='font-black text-white lg:text-[60px] sm:text-[40px] xs:text-[30px] text-[20px] lg:leading-[80px] mt-2'>{name}</h3>
-          <p className='mt-2 text-secondary font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]'>{description}</p>
+          <h3 className='font-black text-secondary lg:text-[60px] sm:text-[40px] xs:text-[30px] text-[20px] lg:leading-[80px] mt-2'>{name}</h3>
+          <p className='mt-2 text-white font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]'>{description}</p>
           <iframe 
             src={link} 
             width="100%" 
