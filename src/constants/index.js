@@ -43,7 +43,7 @@ import {
       title: "Location",
     },
     {
-      id: "contact",
+      id: "rsvp",
       title: "RSVP",
     },
   ];
