@@ -28,6 +28,8 @@ import jhs from "./jhs.jpg";
 import shs from "./shs.jpg";
 import elem from "./elem.jpg";
 import withsir from "./withsir.jpeg";
+import church from "./church.jpg";
+import reception from "./reception.jpg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -40,6 +42,7 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
+  reception,
   backend,
   creator,
   mobile,
@@ -52,6 +55,7 @@ export {
   docker,
   figma,
   git,
+  church,
   html,
   javascript,
   mongodb,

@@ -29,6 +29,8 @@ import {
     mom,
     dad,
     withsir,
+    church,
+    reception,
   } from "../assets";
   
   export const navLinks = [
@@ -37,12 +39,12 @@ import {
       title: "About",
     },
     {
-      id: "portfolio",
-      title: "Portfolio",
+      id: "location",
+      title: "Location",
     },
     {
       id: "contact",
-      title: "Contact",
+      title: "RSVP",
     },
   ];
   
@@ -228,40 +230,18 @@ import {
   
   const projects = [
     {
-      name: "My Elementary School Experience",
+      name: "Our Lady of Lourdes Parish",
       description:
-        "I graduated elementary school at Manuel L. Quezon Elementary School in 2017 with high marks.",
-      image: elem,
+        "1 Kisad Road, Baguio City, Benguet",
+      image: church,
+      link: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.2968192907606!2d120.58995271157383!3d16.409744984254708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3391a1693d1b683b%3A0xe18011c51140cfac!2sChurch%20of%20Our%20Lady%20of%20Lourdes!5e0!3m2!1sen!2sph!4v1710229417958!5m2!1sen!2sph",
     },
     {
-      name: "My Junior High School Experience",
+      name: "Crown Legacy Hotel",
       description:
-        "I graduated junior high school at Baguio City National Science High School in 2021 with high marks.",
-      image: jhs,
-    },
-    {
-      name: "My Senior High School Experience",
-      description:
-        "I graduated senior high school at Baguio City National Science High School in 2023 with high marks.",
-      image: shs,
-    },
-    {
-      name: "Hug with my mother, Elvie",
-      description:
-        "Thank you for always supporting me and helping me in every way possible Mom.",
-      image: mom,
-    },
-    {
-      name: "Handshake with my father, Edgar",
-      description:
-        " Thank you for everything you have done and will do in the future, Dad!",
-      image: dad,
-    },
-    {
-      name: "With Sir Jeremiah Pasion",
-      description:
-        "A picture with one of the newer professors here in UC CITCS.",
-      image: withsir,
+        "Corner Montinola Street, Kisad Road, Baguio City, Benguet",
+      image: reception,
+      link: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.4044233177983!2d120.59256991157388!3d16.404274284259483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3391a16af1a2e4f9%3A0xa68584d6ad3762ca!2sCrown%20Legacy%20Hotel!5e0!3m2!1sen!2sph!4v1710229031330!5m2!1sen!2sph",
     },
   ];
   

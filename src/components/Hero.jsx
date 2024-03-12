@@ -9,51 +9,23 @@ import { faGithub, faFacebook, faInstagram, faTwitter, faLinkedin } from "@forta
 
 const Hero = () => {
   return (
-    <section className={`relative w-full h-screen mx-auto`}>
+    <section className={`relative w-full h-screen mx-auto flex justify-center items-center `}>
       <div
-        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`grid grid-cols-1 justify-items-center max-w-7xl mx-auto ${styles.paddingX} `}
       >
-        <div className='flex flex-col justify-center items-center mt-5'>
-          <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
-          <div className='w-1 sm:h-80 h-40 violet-gradient' />
-        </div>
-
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I am <span className='text-[#915EFF]'>Radge Daryll A. Carbonel</span>
+          <h1 className='sm: text-8xl lg:text-9xl xl:text-[10rem] text-gold font-petit text-center '>Neil Ian
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am a &nbsp;
-            <ReactTyped strings={["Student", "Gamer", "Rookie Developer"]} typeSpeed={100} loop backSpeed={50} />
-          </p>
-          <img src={silhouette} className='w-[125px] h-[125px] mt-2 animate-pulse' alt='' />
+          <h1 className='sm: text-6xl lg:text-7xl text-gold font-petit text-center'>&
+          </h1>
+          <h1 className='sm: text-8xl lg:text-9xl xl:text-[11rem] text-gold font-petit text-center '>Angelica
+          </h1>
         </div>
       </div>
 
-      <ComputersCanvas />
-
-    <div className={`absolute top-[14rem] w-full flex justify-center items-center `}>
-      <div className='flex flex-row justify-start items-center mt-5'>
-            <a href='https://www.facebook.com/profile.php?id=61554100254498' target='_blank' rel="norefferer">
-              <FontAwesomeIcon icon={faFacebook} className='text-[#915EFF] text-2xl mr-5 transition-all hover:animate-bounce' />
-            </a>
-            <a href='https://github.com/rcarbon-del' target='_blank' rel='noreferrer'>
-              <FontAwesomeIcon icon={faGithub} className='text-[#915EFF] text-2xl mr-5 transition-all hover:animate-bounce' />
-            </a>
-            <a href='https://www.instagram.com/rcarbon.ig/' target='_blank' rel='noreferrer'>
-              <FontAwesomeIcon icon={faInstagram} className='text-[#915EFF] text-2xl mr-5 transition-all hover:animate-bounce' />
-            </a>
-            <a href='https://twitter.com/rcarbontwt/' target='_blank' rel='noreferrer'>
-              <FontAwesomeIcon icon={faTwitter} className='text-[#915EFF] text-2xl mr-5 transition-all hover:animate-bounce' />
-            </a>
-            <a href='https://www.linkedin.com/in/rcarbon/' target='_blank' rel='noreferrer'>
-              <FontAwesomeIcon icon={faLinkedin} className='text-[#915EFF] text-2xl mr-5 transition-all hover:animate-bounce' />
-            </a>
-          </div>
-          </div>
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
-          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
+          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-gold flex justify-center items-start p-2'>
             <motion.div
               animate={{
                 y: [0, 24, 0],
@@ -63,7 +35,7 @@ const Hero = () => {
                 repeat: Infinity,
                 repeatType: "loop",
               }}
-              className='w-3 h-3 rounded-full bg-secondary mb-1'
+              className='w-3 h-3 rounded-full bg-gold mb-1'
             />
           </div>
         </a>

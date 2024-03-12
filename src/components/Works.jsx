@@ -6,12 +6,14 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { faChurch, faMapPin } from "@fortawesome/free-solid-svg-icons";
 
 const ProjectCard = ({
   index,
   name,
   description,
   image,
+  link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -19,11 +21,11 @@ const ProjectCard = ({
         options={{
           max: 45,
           scale: 1,
-          speed: 450,
+          speed: 10,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full transition-all'
+        className='bg-tertiary p-5 rounded-2xl sm:w-[550px] w-full transition-all'
       >
-        <div className='relative w-full h-[200px]'>
+        <div className='relative w-[full] h-full'>
           <img
             src={image}
             alt='project_image'
@@ -32,8 +34,18 @@ const ProjectCard = ({
         </div>
 
         <div className='mt-5'>
-          <h3 className='text-white font-bold text-[18px]'>{name}</h3>
-          <p className='mt-2 text-secondary text-[12px]'>{description}</p>
+          <h3 className='font-black text-white lg:text-[60px] sm:text-[40px] xs:text-[30px] text-[20px] lg:leading-[80px] mt-2'>{name}</h3>
+          <p className='mt-2 text-secondary font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]'>{description}</p>
+          <iframe 
+            src={link} 
+            width="100%" 
+            height="450" 
+            style={{border:0}} 
+            allowFullScreen="" 
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            className=" rounded-2xl"
+          ></iframe>
         </div>
       </Tilt>
     </motion.div>
@@ -44,8 +56,7 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>Portfolio</p>
-        <h2 className="text-white font-black md:text-[40px] sm:text-[40px] xs:text-[40px] text-[40px]" >My Achievements</h2>
+        <p className={`${styles.heroHeadText} `}>Location</p>
       </motion.div>
 
       <div className='flex flex-wrap gap-7'>
@@ -57,4 +68,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "portfolio");
+export default SectionWrapper(Works, "location");
