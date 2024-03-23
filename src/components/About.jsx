@@ -36,7 +36,7 @@ const About = () => {
       </div>
       </div>
       <div className="justify-center items-center text-center ">
-        <h1 className="font-petit text-tertiary lg:text-[60px] sm:text-[40px] xs:text-[30px] text-[20px] lg:leading-[80px] mt-2">on May 25, 2024</h1>
+        <h1 className="font-petit text-tertiary lg:text-[60px] sm:text-[40px] xs:text-[30px] text-[20px] lg:leading-[80px] mt-2">on May 25, 2024, 10 AM</h1>
       </div>
     </>
   )
