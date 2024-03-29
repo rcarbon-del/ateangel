@@ -10,6 +10,7 @@ import { faChurch, faMapPin } from "@fortawesome/free-solid-svg-icons";
 
 const ProjectCard = ({
   index,
+  title,
   name,
   description,
   image,
@@ -25,6 +26,9 @@ const ProjectCard = ({
         }}
         className='bg-tertiary p-5 rounded-2xl sm:w-[550px] w-full transition-all'
       >
+        <div className="mt-5">
+          <h2 className={`${styles.sectionHeadText} justify-center text-center`}>{title}</h2>
+        </div>
         <div className='relative w-[full] h-full'>
           <img
             src={image}

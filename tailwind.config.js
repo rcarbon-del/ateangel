@@ -7,6 +7,7 @@ module.exports = {
       allura: ["Allura", "cursive"],
       alex: ["Alex Brush", "cursive"],
       petit: ["Petit Formal Script", "cursive"],
+      pinyon: ["Pinyon Script", "cursive"],
     },
     extend: {
       colors: {

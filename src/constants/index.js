@@ -230,6 +230,7 @@ import {
   
   const projects = [
     {
+      title: "Ceremony",
       name: "Our Lady of Lourdes Parish",
       description:
         "1 Kisad Road, Baguio City, Benguet",
@@ -237,6 +238,7 @@ import {
       link: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.2968192907606!2d120.58995271157383!3d16.409744984254708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3391a1693d1b683b%3A0xe18011c51140cfac!2sChurch%20of%20Our%20Lady%20of%20Lourdes!5e0!3m2!1sen!2sph!4v1710229417958!5m2!1sen!2sph",
     },
     {
+      title: "Reception",
       name: "Crown Legacy Hotel",
       description:
         "Corner Montinola Street, Kisad Road, Baguio City, Benguet",

@@ -14,11 +14,11 @@ const Hero = () => {
         className={`grid grid-cols-1 justify-items-center max-w-7xl mx-auto ${styles.paddingX} `}
       >
         <div>
-          <h1 className='sm: text-7xl lg:text-8xl xl:text-[9rem] text-gold font-petit text-center '>Neil Ian
+          <h1 className='sm: text-8xl lg:text-10xl xl:text-[12rem] text-gold font-pinyon text-center '>Neil Ian
           </h1>
-          <h1 className='sm: text-5xl lg:text-6xl text-gold font-petit text-center'>&
+          <h1 className='sm: text-6xl lg:text-7xl text-gold font-pinyon text-center'>&
           </h1>
-          <h1 className='sm: text-7xl lg:text-8xl xl:text-[9rem] text-gold font-petit text-center '>Angelica
+          <h1 className='sm: text-8xl lg:text-10xl xl:text-[12rem] text-gold font-pinyon text-center '>Angelica
           </h1>
         </div>
       </div>
