@@ -8,7 +8,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
-import { properpic, aboutme } from "../assets";
+import { properpic, aboutme, pic1, pic2, pic3 } from "../assets";
 import { faEarth, faMailBulk, faMap, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const About = () => {
@@ -18,11 +18,7 @@ const About = () => {
       <h1 className="font-petit text-tertiary lg:text-[60px] sm:text-[40px] xs:text-[30px] text-[30px] lg:leading-[80px] mt-2">You are invited to the union of</h1>
     </div>
     <div className='flex flex-wrap justify-center items-center xl:mb-10 xl:mt-10'>
-      <div className="lg:w-1/3">
-        <h2 className={`${styles.padding} text-secondary font-petit md:text-[60px] sm:text-[50px] xs:text-[40px] text-[40px] lg:px-10 justify-center text-center`}>Neil Ian Hidalgo</h2>
-      </div>
- 
-      <div className="lg:w-1/3">
+    <div className="lg:w-1/3">
         <Tilt className="transition-all">
           <motion.img src={properpic} variants={textVariant} className='w-[390px] justify-center items-center gold-green-gradient p-[1px] rounded-[20px] shadow-card' />
           <div className='w-full flex justify-center items-center absolute inset-y-0 inset-x-0'>
@@ -31,10 +27,16 @@ const About = () => {
         </Tilt>
       </div>
 
-      <div className="lg:w-1/3 ">
-        <h2 className={`${styles.padding} text-secondary font-petit md:text-[60px] sm:text-[50px] xs:text-[40px] text-[40px] lg:px-10 justify-center text-center`}>Angelica Carbonel</h2>
+      <div className="lg:w-2/3">
+        <h2 className={`${styles.padding} text-secondary font-petit md:text-[60px] sm:text-[50px] xs:text-[40px] text-[40px] lg:px-10 justify-center text-center`}>Neil Ian Hidalgo & Angelica Carbonel</h2>
+        
+        <div className="flex justify-center items-center gap-2  lg:flex-nowrap flex-wrap">
+          <img src={pic1} className="lg:h-[250px] h-[550px] rounded-[20px] transition-transform duration-300 transform hover:scale-150 hover:z-10" alt="" />
+          <img src={pic2} className="lg:h-[250px] h-[550px] rounded-[20px] transition-transform duration-300 transform hover:scale-150 hover:z-10" alt="" />
+          <img src={pic3} className="lg:h-[250px] h-[500px] rounded-[20px] transition-transform duration-300 transform hover:scale-150 hover:z-10" alt="" />
+        </div>
       </div>
-      </div>
+    </div>
       <div className="justify-center items-center text-center ">
         <h1 className="font-petit text-tertiary lg:text-[60px] sm:text-[40px] xs:text-[30px] text-[30px] lg:leading-[80px] mt-2">on May 25, 2024</h1>
         <h1 className="font-petit text-tertiary lg:text-[60px] sm:text-[40px] xs:text-[30px] text-[30px] lg:leading-[80px] mt-2">Saturday</h1>

@@ -30,6 +30,9 @@ import elem from "./elem.jpg";
 import withsir from "./withsir.jpeg";
 import church from "./church.jpg";
 import reception from "./reception.jpg";
+import pic1 from "./IMG_1400.jpeg";
+import pic2 from "./IMG_1402.jpeg";
+import pic3 from "./IMG_1409.jpeg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -80,4 +83,7 @@ export {
   shs,
   elem,
   withsir,
+  pic1,
+  pic2,
+  pic3,
 };
