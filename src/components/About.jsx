@@ -22,16 +22,16 @@ const About = () => {
     <div>
         <Tilt className="transition-all">
           <motion.img src={pic3} variants={textVariant} className='w-[390px] justify-center items-center gold-green-gradient p-[1px] rounded-[20px] shadow-card' />
-          <div className='w-full flex justify-center items-center absolute inset-y-0 inset-x-0'>
+          <div className='w-full flex justify-center items-center fixed inset-y-0 inset-x-0'>
             <img src={aboutme} className=" w-[375px] h-[375px] animate-spin-slow" alt="" />
           </div>
         </Tilt>
       </div>
 
       <div className="lg:w-full">
-        <div className="flex justify-center items-center gap-2  lg:flex-nowrap flex-wrap mb-10">
-          <img src={pic1} className="lg:h-[500px] h-[500px] rounded-[20px] transition-transform duration-300 transform hover:scale-150 hover:z-10" alt="" />
-          <img src={properpic} className="lg:h-[500px] h-[500px] rounded-[20px] transition-transform duration-300 transform hover:scale-150 hover:z-10" alt="" />
+        <div className="flex justify-center items-center gap-2 lg:flex-nowrap flex-wrap mb-10">
+          <img src={pic1} className="w-[390px] rounded-[20px] gold-green-gradient p-[1px] transition-transform duration-300 transform hover:scale-150 hover:z-10" alt="" />
+          <img src={properpic} className="w-[390px] rounded-[20px] gold-green-gradient p-[1px] transition-transform duration-300 transform hover:scale-150 hover:z-10" alt="" />
         </div>
       </div>
     </div>
