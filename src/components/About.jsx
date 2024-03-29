@@ -22,9 +22,6 @@ const About = () => {
     <div>
         <Tilt className="transition-all">
           <motion.img src={pic3} variants={textVariant} className='w-[390px] justify-center items-center gold-green-gradient p-[1px] rounded-[20px] shadow-card' />
-          <div className='w-full flex justify-center items-center absolute inset-y-0 inset-x-0'>
-            <img src={aboutme} className=" w-[375px] h-[375px] animate-spin-slow" alt="" />
-          </div>
         </Tilt>
       </div>
 
