@@ -29,11 +29,11 @@ const ProjectCard = ({
         <div className="mt-5">
           <h2 className={`${styles.sectionHeadText} justify-center text-center`}>{title}</h2>
         </div>
-        <div className='relative w-[full] h-full'>
+        <div className='relative w-full h-full'>
           <img
             src={image}
             alt='project_image'
-            className=' h-full object-cover rounded-2xl mx-auto'
+            className=' -full object-cover rounded-2xl mx-auto'
           />
         </div>
 
@@ -60,7 +60,7 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.heroHeadText} `}>Location</p>
+        <p className={`${styles.heroHeadText} items-center text-center`}>Location</p>
       </motion.div>
 
       <div className='flex flex-wrap gap-7'>
