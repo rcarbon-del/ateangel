@@ -38,7 +38,6 @@ const About = () => {
         <h1 className="font-petit text-tertiary lg:text-[60px] sm:text-[40px] xs:text-[30px] text-[30px] lg:leading-[80px] mt-2">Saturday</h1>
         <h1 className="font-petit text-tertiary lg:text-[60px] sm:text-[40px] xs:text-[30px] text-[30px] lg:leading-[80px] mt-2">at 10 o' clock in the morning</h1>
       </div>
-      <img src={aboutme} className="flex w-[300px] justify-center items-center center mx-auto" alt="" />
     </>
   )
 }
