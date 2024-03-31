@@ -48,6 +48,11 @@
   background: linear-gradient(90.13deg, #AE7E1E 1.9%, #125F30 97.5%);
   background: -webkit-linear-gradient(-90.13deg, #AE7E1E 1.9%, #125F30 97.5%);
 }
+.gold-green-text {
+  text: "#00cea8";
+  text: linear-gradient(90.13deg, #AE7E1E 1.9%, #125F30 97.5%);
+  text: -webkit-linear-gradient(-90.13deg, #AE7E1E 1.9%, #125F30 97.5%);
+}
 
 .orange-text-gradient {
   background: #f12711; /* fallback for old browsers */

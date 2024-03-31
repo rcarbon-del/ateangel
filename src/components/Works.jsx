@@ -19,7 +19,7 @@ const ProjectCard = ({
   return (
     <div className='bg-tertiary p-5 rounded-2xl sm:w-[550px] w-full transition-all'>
       
-      <div className="mt-5">
+      <div className="mt-5 mb-5">
         <h2 className={`${styles.sectionHeadText} justify-center text-center`}>{title}</h2>
       </div>
       
@@ -49,11 +49,11 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <div >
         <p className={`${styles.heroHeadText} items-center text-center`}>Location</p>
-      </motion.div>
+      </div>
 
-      <div className='flex flex-wrap gap-7'>
+      <div className='flex flex-wrap gap-7 mt-10'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

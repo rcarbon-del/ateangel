@@ -14,13 +14,16 @@ import FormfacadeEmbed from "@formfacade/embed-react";
 
 const Contact = () => {
   return (
+    <div >
+      <p className={`${styles.heroHeadText} items-center text-center`}>RSVP</p>
+    
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className='flex-[0.75] bg-tertiary p-8 rounded-2xl'
+        className='flex-[0.75] bg-tertiary p-8 rounded-2xl mt-10'
       >
-        <h2 className={`${styles.sectionHeadText} justify-center text-center`}>RSVP</h2>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScrF7mZrWHNks2K_H6Bms9xKNBGRdkWjypTiGcY9c-2ORJBjQ/viewform?embedded=true" width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0" className="rounded-2xl ">Loading…</iframe>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScrF7mZrWHNks2K_H6Bms9xKNBGRdkWjypTiGcY9c-2ORJBjQ/viewform?embedded=true" width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0" className="rounded-2xl p-2">Loading…</iframe>
       </motion.div>
+    </div>
   );
 };
 
